@@ -5,15 +5,15 @@
 1. Open IntelliJ IDEA
 2. Click **File** → **New** → **Project…**
 
-![Untitled](doc/Untitled.png)
+![Untitled](docs/Untitled.png)
 
 3. Select **Empty Project**, setup name, and click **Create**
 
-![Untitled](doc/Untitled%201.png)
+![Untitled](docs/Untitled%201.png)
 
 4. Add .gitignore
 
-![Untitled](doc/Untitled%202.png)
+![Untitled](docs/Untitled%202.png)
 
 5. In Terminal run for uploading `./docker-compose.yaml`
 
@@ -21,7 +21,7 @@
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.4.2/docker-compose.yaml'
 ```
 
-![Untitled](doc/Untitled%203.png)
+![Untitled](docs/Untitled%203.png)
 
 6. Initializing Environment
 
@@ -30,7 +30,7 @@ mkdir -p ./dags ./logs ./plugins
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
 
-![Untitled](doc/Untitled%204.png)
+![Untitled](docs/Untitled%204.png)
 
 7. Initialize the database
 
@@ -47,7 +47,7 @@ airflow-init_1       | 2.4.2
 start_airflow-init_1 exited with code 0
 ```
 
-![Untitled](doc/Untitled%205.png)
+![Untitled](docs/Untitled%205.png)
 
 9. The account created has the login `airflow` and the password `airflow`
 
@@ -58,8 +58,8 @@ start_airflow-init_1 exited with code 0
 docker-compose up
 ```
 
-![Untitled](doc/Untitled%206.png)
+![Untitled](docs/Untitled%206.png)
 
 11. Go to [http://localhost:8080/home](http://localhost:8080/home)
 
-![Untitled](doc/Untitled%207.png)
+![Untitled](docs/Untitled%207.png)
