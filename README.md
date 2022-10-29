@@ -1,4 +1,4 @@
-# Run locally (official doc) (15 m)
+# How to run locally (official doc) (15 m)
 
 [https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
 
